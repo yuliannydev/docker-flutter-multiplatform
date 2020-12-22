@@ -1,12 +1,12 @@
 # docker-flutter
 
-With this docker image you don't need to install the Flutter and Android SDK on your developer machine. Everything is ready to use inclusive an emulator device (Pixel with Android 9). With a shell alias you won't recognize a difference between the image and a local installation. If you are using VSCode you can also use this image as your devcontainer.
+With this docker image you don't need to install the Flutter and Android SDK on your developer machine. Everything is ready to use inclusive an emulator device (Pixel with Android 9).
 
 ## Supported tags
 
-- [`latest`](https://github.com/matsp/docker-flutter/blob/master/stable/Dockerfile)
-- [`beta`](https://github.com/matsp/docker-flutter/tree/master/beta)
-- [`dev`](https://github.com/matsp/docker-flutter/tree/master/dev)
+- [`latest`](https://github.com/yuliannydev/docker-flutter-multiplatform/blob/main/stable/Dockerfile)
+- [`beta`](https://github.com/yuliannydev/docker-flutter-multiplatform/blob/main/beta/Dockerfile)
+- [`dev`](https://github.com/yuliannydev/docker-flutter-multiplatform/blob/main/dev/Dockerfile)
 
 ## Entrypoints
 
@@ -48,7 +48,7 @@ docker run --rm -ti -e UID=$(id -u) -e GID=$(id -g) -p 42000:42000 -p 8090:8090 
 
 You can also use this image to develop inside a devcontainer in VSCode and launch the android emulator or web-server. The android emulator need hardware accerlation, so their is no best practice for all common operating systems.
 
-### Linux #1 (X11 & KVM forwarding)
+### Linux #1 (X11 & KVM forwarding) (Default configuration)
 
 For developers using Linux as their OS I recommend this approach, because it's the overall cleanest way.
 
