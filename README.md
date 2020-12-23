@@ -1,7 +1,10 @@
-# docker-flutter
+# docker-flutter-multiplatform
 
 With this docker image you don't need to install the Flutter and Android SDK on your developer machine. Everything is ready to use inclusive an emulator device (Pixel with Android 9).
 
+---
+![twitter](https://img.shields.io/badge/twitter-yuliannydev-blue)
+---
 ## Supported tags
 
 - [`latest`](https://github.com/yuliannydev/docker-flutter-multiplatform/blob/main/stable/Dockerfile)
@@ -99,6 +102,10 @@ adb connect host.docker.internal:5555
 ```
 
 You can now choose the device to start debugging.
+
+### Support me on KO-FI
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H52F76Q)
 
 ## FAQ
 
