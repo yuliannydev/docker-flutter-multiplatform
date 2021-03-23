@@ -116,3 +116,6 @@ Alpine is based on `musl` instead of `glibc`. The dart binaries packaged by flut
 > Why OpenJDK 8?
 
 With higher versions the sdkmanager of the android tools throws errors while fetching maven dependencies.
+##POMOGO
+
+Una Aplicacion de Pomodoro con Flutter
